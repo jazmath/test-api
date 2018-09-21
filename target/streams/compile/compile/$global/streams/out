@@ -1,0 +1,21 @@
+[0m[[0m[31merror[0m] [0m[0m/home/azmath/Personal/Workspace/test-api/app/v1/employee/EmployeeController.scala:42:19: No Json serializer found for type scala.concurrent.Future[Option[models.Employee]]. Try to implement an implicit Writes or Format for this type.[0m
+[0m[[0m[31merror[0m] [0m[0m    Ok(Json.toJson(savedEmployee))[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/azmath/Personal/Workspace/test-api/app/v1/employee/EmployeeController.scala:11:18: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport play.libs.Json[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/azmath/Personal/Workspace/test-api/app/v1/employee/EmployeeController.scala:17:46: parameter value executionException in class EmployeeController is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                  (implicit  executionException: ExecutionException) extends AbstractController(c){[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/azmath/Personal/Workspace/test-api/conf/routes: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/azmath/Personal/Workspace/test-api/conf/routes: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/azmath/Personal/Workspace/test-api/conf/routes: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/azmath/Personal/Workspace/test-api/conf/routes:13:1: private val v1_employee_EmployeeController_save5_invoker in class Routes is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0mPOST       /v1/employees/create                v1.employee.EmployeeController.save[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/azmath/Personal/Workspace/test-api/conf/routes: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/azmath/Personal/Workspace/test-api/conf/routes: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/azmath/Documents/script/test-api/employee-test/app/views/index.scala.html:1:1: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m@()[0m
+[0m[[0m[33mwarn[0m] [0m[0m^[0m
+[0m[[0m[33mwarn[0m] [0m[0m9 warnings found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

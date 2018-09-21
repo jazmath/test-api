@@ -1,0 +1,14 @@
+GET        /                       controllers.HomeController.index
+
+
+
+->         /v1/posts               v1.post.PostRouter
+
+# Map static resources from the /public folder to the /assets URL path
+GET        /assets/*file        controllers.Assets.at(path="/public", file)
+
+
+GET        /v1/employees                       v1.employee.EmployeeController.index
+POST       /v1/employees                       v1.employee.EmployeeController.create
+POST       /v1/employees/create                v1.employee.EmployeeController.save
+
